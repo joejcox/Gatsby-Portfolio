@@ -7,8 +7,8 @@ import bannerImage from "images/home-banner.jpg"
 import CF_DATA from "../../data"
 
 class Home extends React.Component {
-  constructor(props) {
-    super(props)
+  constructor() {
+    super()
     this.state = {
       fields: [],
       cf: CF_DATA,
@@ -58,13 +58,15 @@ class Home extends React.Component {
                 }) => {
                   return (
                     <article className="project-container">
-                      <h2>{title}</h2>
-                      <p>{description}</p>
-                      <img
-                        width="100%"
-                        src={fields.file.url}
-                        alt={fields.file.description}
-                      />
+                      <h2 className="project-title">{title}</h2>
+                      <p className="project-description">{description}</p>
+                      <div className="project-inner">
+                        <img
+                          width="100%"
+                          src={fields.file.url}
+                          alt={fields.file.description}
+                        />
+                      </div>
                     </article>
                   )
                 }
