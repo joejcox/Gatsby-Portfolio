@@ -13,7 +13,9 @@ const ImageBlock = ({
 }) => {
   return (
     <section className="section image-block is-large">
-      <img className="overlay-image" src={image} alt={altText} />
+      {image ? (
+        <img className="overlay-image" src={image} alt={altText} />
+      ) : null}
       {hasFilter ? (
         <div
           className="overlay-filter"

@@ -1,4 +1,13 @@
+@import "../../assets/styles/variables";
+
 .image-block {
+  p {
+    color: $white;
+
+    &.dark-text {
+      color: $dark;
+    }
+  }
   .overlay-image {
     position: absolute;
     object-fit: cover;
@@ -15,5 +24,11 @@
     right: 0;
     background: rgba(0, 0, 0, 0.6);
     z-index: -1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image-block .overlay-filter {
+    background: rgba(0, 0, 0, 0.8);
   }
 }

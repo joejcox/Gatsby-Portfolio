@@ -1,21 +1,24 @@
 import React from "react"
 import Layout from "components/layout/index"
-import ImageBlock from "components/imageBlock/index"
-import bannerImage from "../assets/images/about-banner.jpg"
+import PageTitle from "components/page-title/index"
+import ImageBlock from "components/ImageBlock/index"
 
 const About = () => {
   return (
     <Layout>
-      <ImageBlock image={bannerImage} altText="Large Lake" hasFilter isRight>
-        <h1 className="page-title">About Me</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut erat
-          ut enim blandit iaculis. Phasellus tristique diam lectus, in viverra
-          libero consectetur id. Nunc rutrum ipsum non urna tincidunt
-          consectetur. In vulputate quam sit amet hendrerit suscipit.
-          Suspendisse ac est erat. Pellentesque dignissim, metus nec elementum
-          eleifend, odio neque tincidunt quam, sed dapibus risus urna id neque.
-          Integer tristique suscipit ex vel lobortis.
+      <PageTitle>About Me</PageTitle>
+      <ImageBlock>
+        <p className="dark-text">
+          My coding journey began with Myspace layouts, where code would be
+          uploaded for others to use on their profiles. This was the first step
+          on the path for knowledge in HTML, CSS/SCSS and JavaScript. Keeping up
+          with JavaScript libraries such as jQuery, React, gsap and CSS
+          frameworks such as Bootstrap and Bulma.
+        </p>
+
+        <p className="dark-text">
+          I develop dynamic websites using React JS. From blogs, to eCommerce
+          stores, fully bespoke websites are what I do.
         </p>
       </ImageBlock>
     </Layout>

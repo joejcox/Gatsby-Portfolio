@@ -25,6 +25,15 @@ body {
   font-family: $pageTitleFont;
 }
 
+.page-title-section {
+  padding: 2rem 0;
+  background: $black;
+
+  .page-title {
+    margin-bottom: 0;
+  }
+}
+
 .page-title {
   margin-bottom: 1.5rem;
   font-size: 2rem;
@@ -109,5 +118,22 @@ p {
 
   &.pink {
     background: $pink;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container,
+  .section .container {
+    padding: 0 1.5rem;
+  }
+
+  .section.is-large .container {
+    padding: 3rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section.is-large .container .section--half-block {
+    width: 100%;
   }
 }

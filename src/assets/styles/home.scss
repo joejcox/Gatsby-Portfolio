@@ -1,25 +1,20 @@
 @import "./variables.scss";
 
-.projects {
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
+@media screen and (max-width: 768px) {
+  .projects .container {
+    padding: 0;
+  }
+  .project-container {
+    width: 100%;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid $light-grey;
 
-    .project-container {
-      width: 50%;
-      padding: 1rem;
+    .project-inner {
+      box-shadow: none;
+    }
 
-      .project-inner {
-        padding: 1rem;
-        background: $white;
-        box-shadow: 0 0 8px rgba(200, 200, 200, 0.4);
-      }
-
-      .project-description {
-        border-bottom: 2px solid darken($light-grey, 10%);
-        margin-bottom: 0;
-      }
+    .project-description {
+      border-width: 0;
     }
   }
 }
