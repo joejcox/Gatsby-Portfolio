@@ -8,7 +8,7 @@
     "node": "12.6.0"
   },
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby serve",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
