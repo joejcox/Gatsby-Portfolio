@@ -4,6 +4,9 @@
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
   "license": "0BSD",
+  "engines": {
+    "node": "12.6.0"
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -16,7 +19,7 @@
   "dependencies": {
     "contentful": "^7.14.6",
     "dotenv": "^8.2.0",
-    "gatsby": "^2.24.63",
+    "gatsby": "^2.24.65",
     "gatsby-plugin-sass": "^2.3.13",
     "node-sass": "^4.14.1",
     "react": "^16.12.0",
