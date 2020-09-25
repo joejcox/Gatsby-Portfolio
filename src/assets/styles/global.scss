@@ -1,0 +1,113 @@
+@import "./variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $mainFont;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.content {
+  position: relative;
+}
+
+.logo,
+.page-title {
+  text-transform: uppercase;
+  font-family: $pageTitleFont;
+}
+
+.page-title {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  letter-spacing: 1px;
+
+  color: $pink;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+.section {
+  position: relative;
+
+  .container {
+    padding: 1rem 0;
+  }
+
+  .section--half-block {
+    width: 50%;
+
+    &.block-right {
+      margin-left: auto;
+    }
+  }
+
+  &.is-medium .container {
+    padding: 3rem 0;
+  }
+
+  &.is-large .container {
+    padding: 6rem 0;
+  }
+}
+
+.divider {
+  border-bottom: 1px solid $light-grey;
+}
+
+.text-white p {
+  color: $white;
+}
+
+.text-light {
+  color: $light-text;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+
+  background: $blue;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+
+  transition: 0.2s ease-out;
+
+  border: none;
+  outline: none;
+  border-radius: 2px;
+
+  &:hover {
+    background: lighten($blue, 5%);
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    background: darken($blue, 5%);
+    transform: translate(0);
+  }
+
+  &.inverted {
+    border: 2px solid $white;
+    background: transparent;
+    color: $white;
+  }
+
+  &.pink {
+    background: $pink;
+  }
+}
