@@ -1,6 +1,6 @@
 import React from "react"
 // import { Link } from "gatsby"
-// import CF_DATA from "../../../data"
+import CF_DATA from "../../../data"
 import "./styles.scss"
 
 class PortfolioContainer extends React.Component {
@@ -15,10 +15,8 @@ class PortfolioContainer extends React.Component {
   componentDidMount() {
     const contentful = require("contentful")
     const client = contentful.createClient({
-      // space: this.state.cf[0].space,
-      // accessToken: this.state.cf[0].token,
-      space: process.env.space,
-      accessToken: process.env.token,
+      space: this.state.cf[0].space,
+      accessToken: this.state.cf[0].token,
     })
 
     client.getEntries().then(({ items }) => {
