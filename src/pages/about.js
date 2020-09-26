@@ -6,7 +6,12 @@ import bannerImage from "src/assets/images/about-banner.jpg"
 const About = () => {
   return (
     <Layout title="About | Joseph Cox - eCommerce Website Development">
-      <ImageBlock image={bannerImage} fillSpace hasFilter>
+      <ImageBlock
+        image={bannerImage}
+        alt="Laptop showing music production software"
+        fillSpace
+        hasFilter
+      >
         <h1 className="page-title">About Me</h1>
         <p>
           My coding journey began with Myspace layouts, where code would be
@@ -19,6 +24,11 @@ const About = () => {
         <p>
           I develop dynamic websites using React JS. From blogs, to eCommerce
           stores, fully bespoke websites are what I do.
+        </p>
+
+        <p>
+          <strong>Skills:</strong> HTML, CSS/SCSS, JavaScript, React, Gatsby,
+          Next, Git, PHP, Photoshop
         </p>
       </ImageBlock>
     </Layout>

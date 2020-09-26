@@ -23,6 +23,8 @@ class PortfolioContainer extends React.Component {
 
   render() {
     const { projects, maxDisplay } = this.state
+
+    console.log(projects)
     return (
       <section className="section projects">
         <div className="container">
@@ -34,7 +36,8 @@ class PortfolioContainer extends React.Component {
                 github,
                 image: {
                   fields: {
-                    file: { url, description },
+                    description,
+                    file: { url },
                   },
                 },
               },

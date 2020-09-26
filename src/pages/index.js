@@ -11,7 +11,11 @@ const Home = () => {
   return (
     <Layout title="Joseph Cox - Website Developer">
       <main className="content home-content">
-        <ImageBlock image={bannerImage} altText="Large Lake" hasFilter>
+        <ImageBlock
+          image={bannerImage}
+          altText="Laptop showing web developer code"
+          hasFilter
+        >
           <h1 className="page-title">Frontend Developer</h1>
           <p>
             I'm a web developer with a passion for building fast, dynamic
