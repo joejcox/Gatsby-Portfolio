@@ -8,7 +8,6 @@ class PortfolioContainer extends React.Component {
     super(props)
     this.state = {
       projects: [],
-      cf: CF_DATA,
       maxDisplay: props.maxDisplay,
     }
   }
