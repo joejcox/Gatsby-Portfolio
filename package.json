@@ -20,10 +20,12 @@
     "contentful": "^7.14.6",
     "dotenv": "^8.2.0",
     "gatsby": "^2.24.65",
+    "gatsby-plugin-react-helmet": "^3.3.11",
     "gatsby-plugin-sass": "^2.3.13",
     "node-sass": "^4.14.1",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "gatsby-plugin-root-import": "^2.0.5",

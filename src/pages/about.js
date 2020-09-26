@@ -5,7 +5,7 @@ import ImageBlock from "components/ImageBlock/index"
 
 const About = () => {
   return (
-    <Layout>
+    <Layout title="About | Joseph Cox - eCommerce Website Development">
       <PageTitle>About Me</PageTitle>
       <ImageBlock>
         <p className="dark-text">

@@ -6,7 +6,7 @@ import "../assets/styles/home.scss"
 
 const Portfolio = () => {
   return (
-    <Layout>
+    <Layout title="Portfolio | Joseph Cox - Bespoke Website Development">
       <main className="content portfolio-content">
         <PageTitle>Portfolio</PageTitle>
         <PortfolioContainer />
