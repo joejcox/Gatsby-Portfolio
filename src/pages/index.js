@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Layout from "components/layout/index"
 import ImageBlock from "components/imageBlock/index"
 import PortfolioContainer from "components/portfolio-container/index"
@@ -21,15 +21,15 @@ const Home = () => {
             I'm a web developer with a passion for building fast, dynamic
             websites
           </p>
-          <Link to="/portfolio" className="button">
+          <AniLink cover duration="0.8" to="/portfolio" className="button">
             View Work
-          </Link>
+          </AniLink>
         </ImageBlock>
         <PortfolioContainer maxDisplay="3" />
         <SingleButton>
-          <Link to="/portfolio" className="button">
+          <AniLink cover duration="0.8" to="/portfolio" className="button">
             View All
-          </Link>
+          </AniLink>
         </SingleButton>
       </main>
     </Layout>
