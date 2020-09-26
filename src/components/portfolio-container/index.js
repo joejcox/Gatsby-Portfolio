@@ -15,8 +15,8 @@ class PortfolioContainer extends React.Component {
   componentDidMount() {
     const contentful = require("contentful")
     const client = contentful.createClient({
-      space: this.state.cf[0].space,
-      accessToken: this.state.cf[0].token,
+      space: "ijdkm9gqowyt",
+      accessToken: "ns9FNHaQxKhDcPgsDbOJgU9afjc29jjbEiXVTfvKUQE",
     })
 
     client.getEntries().then(({ items }) => {
