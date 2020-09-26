@@ -47,7 +47,7 @@ class PortfolioContainer extends React.Component {
                     <h3 className="project-title">{title}</h3>
                   </header>
                   <div className="project-inner">
-                    <a href={demo} target="_blank">
+                    <a href={demo} target="_blank" rel="noreferrer">
                       <img width="100%" src={url} alt={description} />
                     </a>
                   </div>
@@ -56,6 +56,7 @@ class PortfolioContainer extends React.Component {
                       className="button project-button"
                       href={demo}
                       target="_blank"
+                      rel="noreferrer"
                     >
                       View Demo
                     </a>
@@ -64,6 +65,7 @@ class PortfolioContainer extends React.Component {
                         className="button project-button"
                         href={github}
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Github
                       </a>
