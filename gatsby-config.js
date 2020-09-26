@@ -24,6 +24,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sass`,
+    `gatsby-plugin-transition-link`,
     {
       resolve: "gatsby-plugin-root-import",
       options: {

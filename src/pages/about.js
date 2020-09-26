@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "components/layout/index"
 import ImageBlock from "components/imageBlock/index"
-import bannerImage from "src/assets/images/about-banner.jpg"
+import bannerImage from "src/assets/images/about-banner-opt.jpg"
 
 const About = () => {
   return (
