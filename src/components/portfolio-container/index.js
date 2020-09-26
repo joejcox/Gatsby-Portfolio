@@ -58,7 +58,7 @@ class PortfolioContainer extends React.Component {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      View Demo
+                      Visit
                     </a>
                     {github ? (
                       <a
