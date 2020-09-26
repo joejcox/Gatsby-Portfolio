@@ -1,6 +1,4 @@
 import React from "react"
-// import { Link } from "gatsby"
-// import CF_DATA from "../../../data"
 import "./styles.scss"
 
 class PortfolioContainer extends React.Component {

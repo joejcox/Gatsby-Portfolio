@@ -34,4 +34,13 @@
 .logo {
   letter-spacing: 2px;
   color: $dark;
+
+  a {
+    color: $dark;
+    text-decoration: none;
+
+    &:hover {
+      color: $black;
+    }
+  }
 }
