@@ -1,16 +1,7 @@
 import React from "react"
 import "./styles.scss"
 
-const ImageBlock = ({
-  image,
-  altText,
-  hasFilter,
-  r,
-  g,
-  b,
-  isRight,
-  children,
-}) => {
+const ImageBlock = ({ image, altText, hasFilter, isRight, children }) => {
   return (
     <section className="section image-block is-large">
       {image ? (
