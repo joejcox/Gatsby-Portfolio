@@ -48,3 +48,18 @@
     }
   }
 }
+
+@media screen and (max-width: 1400px) {
+  .site-header .container {
+    padding: 1rem 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .site-header .container {
+    padding: 1rem;
+  }
+  .main-navigation {
+    display: none;
+  }
+}

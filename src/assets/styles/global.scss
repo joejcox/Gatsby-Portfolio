@@ -142,7 +142,27 @@ p {
   }
 }
 
+@media screen and (max-width: 1400px) {
+  .section {
+    .container,
+    &.is-medium .container,
+    &.is-large .container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
+  .section {
+    .container,
+    &.is-medium .container,
+    &.is-large .container {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      text-align: center;
+    }
+  }
   .section.is-large .container .section--half-block {
     width: 100%;
   }

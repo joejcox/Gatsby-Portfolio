@@ -29,7 +29,6 @@
 
   .project-header {
     border-bottom: 1px solid darken($light-grey, 10%);
-    // background: $black;
     margin-bottom: 0;
 
     .project-title {
@@ -56,6 +55,30 @@
           background: lighten($pink, 10%);
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .project-container {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects .container {
+    padding: 0;
+  }
+  .project-container {
+    width: 100%;
+    padding-bottom: 1.5rem;
+
+    .project-inner {
+      box-shadow: none;
+    }
+
+    .project-description {
+      border-width: 0;
     }
   }
 }
