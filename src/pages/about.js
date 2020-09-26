@@ -1,13 +1,13 @@
 import React from "react"
 import Layout from "components/layout/index"
+// import ImageBlock from "components/imageBlock/index"
 import PageTitle from "components/page-title/index"
-import ImageBlock from "components/ImageBlock/index"
 
 const About = () => {
   return (
     <Layout title="About | Joseph Cox - eCommerce Website Development">
       <PageTitle>About Me</PageTitle>
-      <ImageBlock>
+      {/* <ImageBlock>
         <p className="dark-text">
           My coding journey began with Myspace layouts, where code would be
           uploaded for others to use on their profiles. This was the first step
@@ -20,7 +20,7 @@ const About = () => {
           I develop dynamic websites using React JS. From blogs, to eCommerce
           stores, fully bespoke websites are what I do.
         </p>
-      </ImageBlock>
+      </ImageBlock> */}
     </Layout>
   )
 }
