@@ -1,11 +1,16 @@
 import React from "react"
+import { Link } from "gatsby"
+import SocialLinks from "components/social-links/index"
 import "./styles.scss"
 
 const Footer = () => {
   return (
     <footer className="site-footer">
       <div className="container">
-        <span className="copyright">äçÊ‚‹¾‚e– x0Òð6“╥^n^h┤</span>
+        <SocialLinks />
+        <span>
+          © <Link to="/">Joseph Cox</Link> {new Date().getFullYear()}
+        </span>
       </div>
     </footer>
   )

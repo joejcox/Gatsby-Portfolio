@@ -10,6 +10,15 @@ body {
   font-family: $mainFont;
 }
 
+a {
+  color: $pink;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($pink, 10%);
+  }
+}
+
 .container {
   max-width: 1300px;
   margin: 0 auto;
@@ -101,6 +110,7 @@ p {
   border-radius: 2px;
 
   &:hover {
+    color: $white;
     background: lighten($blue, 5%);
     transform: translateY(-2px);
   }

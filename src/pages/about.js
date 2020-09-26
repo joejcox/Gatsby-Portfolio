@@ -1,14 +1,14 @@
 import React from "react"
 import Layout from "components/layout/index"
 import ImageBlock from "components/imageBlock/index"
-import PageTitle from "components/page-title/index"
+import bannerImage from "src/assets/images/about-banner.jpg"
 
 const About = () => {
   return (
     <Layout title="About | Joseph Cox - eCommerce Website Development">
-      <PageTitle>About Me</PageTitle>
-      <ImageBlock>
-        <p className="dark-text">
+      <ImageBlock image={bannerImage} fillSpace hasFilter>
+        <h1 className="page-title">About Me</h1>
+        <p>
           My coding journey began with Myspace layouts, where code would be
           uploaded for others to use on their profiles. This was the first step
           on the path for knowledge in HTML, CSS/SCSS and JavaScript. Keeping up
@@ -16,7 +16,7 @@ const About = () => {
           frameworks such as Bootstrap and Bulma.
         </p>
 
-        <p className="dark-text">
+        <p>
           I develop dynamic websites using React JS. From blogs, to eCommerce
           stores, fully bespoke websites are what I do.
         </p>

@@ -1,0 +1,37 @@
+@import "../../assets/styles/_variables.scss";
+
+.social-links {
+  margin-left: 1rem;
+  font-size: 2rem;
+
+  a {
+    background: $pink;
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 1rem;
+    border-radius: 50%;
+
+    &:hover {
+      color: $white;
+      background: $black;
+    }
+  }
+}
+
+.site-footer .social-links {
+  margin-left: 0;
+  a {
+    background: $black;
+    font-size: 1.5rem;
+    width: 30px;
+    height: 30px;
+
+    &:hover {
+      background: $pink;
+    }
+  }
+}

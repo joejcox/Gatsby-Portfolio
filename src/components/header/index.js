@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import SocialLinks from "components/social-links/index"
 import "components/header/styles.scss"
 
 const Header = () => {
@@ -22,6 +23,7 @@ const Header = () => {
             Portfolio
           </Link>
         </nav>
+        <SocialLinks />
       </div>
     </header>
   )

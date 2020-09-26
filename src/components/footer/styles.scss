@@ -5,4 +5,10 @@
   background: $light-grey;
   color: $dark;
   border-top: 1px solid darken($light-grey, 10%);
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
