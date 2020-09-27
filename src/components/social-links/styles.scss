@@ -5,9 +5,8 @@
   font-size: 2rem;
 
   a {
-    background: $pink;
-    color: $white;
-    display: flex;
+    color: $black;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 40px;
@@ -16,8 +15,7 @@
     border-radius: 50%;
 
     &:hover {
-      color: $white;
-      background: $black;
+      color: $pink;
     }
   }
 }
@@ -26,12 +24,21 @@
   margin-left: 0;
   a {
     background: $black;
+    color: $white;
     font-size: 1.5rem;
     width: 30px;
     height: 30px;
+    margin-right: 0.25rem;
 
     &:hover {
       background: $pink;
     }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .social-links {
+    margin-right: 1rem;
+    margin-left: auto;
   }
 }

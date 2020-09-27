@@ -2,6 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import Header from "components/header/index"
 import Footer from "components/footer/index"
+import Instagram from "components/instagram/index"
 import "../../assets/styles/global.scss"
 import "./styles.scss"
 
@@ -18,6 +19,7 @@ const Layout = ({ children, title }) => {
       <div className="wrapper-top">
         <Header />
         {children}
+        <Instagram />
       </div>
       <Footer />
     </div>

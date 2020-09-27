@@ -1,9 +1,11 @@
-import React from "react"
+import React, { useState } from "react"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
+import Hamburger from "components/hamburger/hamburger.component"
 import SocialLinks from "components/social-links/index"
 import "components/header/styles.scss"
 
 const Header = () => {
+  const [isOpen, setOpen] = useState(false)
   return (
     <header className="site-header">
       <div className="container">
@@ -44,6 +46,7 @@ const Header = () => {
           </AniLink>
         </nav>
         <SocialLinks />
+        <Hamburger click={() => setOpen(!isOpen)} isOpen={isOpen} />
       </div>
     </header>
   )
