@@ -70,6 +70,17 @@
     .social-links {
       display: none;
     }
+    .mobile-menu .social-links {
+      display: block;
+      margin: 1rem 0 0 0;
+      a {
+        color: $white;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
   }
   .main-navigation {
     display: none;

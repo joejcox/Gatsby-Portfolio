@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Hamburger from "components/hamburger/hamburger.component"
+import MobileMenu from "components/mobile-menu/mobile-menu.component"
 import SocialLinks from "components/social-links/index"
 import "components/header/styles.scss"
 
@@ -47,6 +48,7 @@ const Header = () => {
         </nav>
         <SocialLinks />
         <Hamburger click={() => setOpen(!isOpen)} isOpen={isOpen} />
+        <MobileMenu isOpen={isOpen} />
       </div>
     </header>
   )
