@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
+import NavLinks from "components/nav-links/nav-links.component"
 import Hamburger from "components/hamburger/hamburger.component"
 import MobileMenu from "components/mobile-menu/mobile-menu.component"
 import SocialLinks from "components/social-links/index"
@@ -18,33 +19,7 @@ const Header = () => {
           </h2>
         </div>
         <nav className="main-navigation">
-          <AniLink
-            cover
-            duration="0.8"
-            to="/"
-            className="nav-link"
-            activeClassName="active"
-          >
-            Home
-          </AniLink>
-          <AniLink
-            cover
-            duration="0.8"
-            to="/about"
-            className="nav-link"
-            activeClassName="active"
-          >
-            About Me
-          </AniLink>
-          <AniLink
-            cover
-            duration="0.8"
-            to="/portfolio"
-            className="nav-link"
-            activeClassName="active"
-          >
-            Portfolio
-          </AniLink>
+          <NavLinks />
         </nav>
         <SocialLinks />
         <Hamburger click={() => setOpen(!isOpen)} isOpen={isOpen} />

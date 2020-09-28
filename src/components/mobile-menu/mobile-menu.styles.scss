@@ -45,12 +45,17 @@
       width: 100%;
       padding: 0 4rem;
 
-      a {
+      .nav-link {
+        color: $pink;
         display: block;
         width: 100%;
         padding: 1rem;
         flex: 1;
         font-size: 1.25rem;
+
+        &:hover {
+          color: darken($pink, 10%);
+        }
       }
     }
   }

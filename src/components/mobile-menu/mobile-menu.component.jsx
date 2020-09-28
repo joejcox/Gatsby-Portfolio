@@ -1,5 +1,5 @@
 import React from "react"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+import NavLinks from "components/nav-links/nav-links.component"
 import SocialLinks from "components/social-links/index"
 import "./mobile-menu.styles.scss"
 
@@ -13,15 +13,7 @@ const MobileMenu = ({ isOpen }) => {
           <h3 className="mobile-menu--logo">Joseph Cox</h3>
         </header>
         <nav className="mobile-menu--navigation">
-          <AniLink cover duration="0.8" to="/">
-            Home
-          </AniLink>
-          <AniLink cover duration="0.8" to="/about/">
-            About Me
-          </AniLink>
-          <AniLink cover duration="0.8" to="/portfolio/">
-            Portfolio
-          </AniLink>
+          <NavLinks />
         </nav>
         <footer className="mobile-menu--footer">
           <SocialLinks />

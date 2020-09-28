@@ -21,13 +21,13 @@ const Home = () => {
             I'm a web developer with a passion for building fast, dynamic
             websites
           </p>
-          <AniLink cover duration="0.8" to="/portfolio" className="button">
+          <AniLink cover duration="0.8" to="/projects" className="button">
             View Work
           </AniLink>
         </ImageBlock>
         <PortfolioContainer maxDisplay="3" />
         <SingleButton>
-          <AniLink cover duration="0.8" to="/portfolio" className="button">
+          <AniLink cover duration="0.8" to="/projects" className="button">
             View All
           </AniLink>
         </SingleButton>
