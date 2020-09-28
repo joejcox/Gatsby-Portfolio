@@ -24,6 +24,12 @@ const Home = () => {
           <AniLink cover duration="0.8" to="/projects" className="button">
             View Work
           </AniLink>
+          <a
+            href="https://github.com/joejcox/Gatsby-Portfolio"
+            className="button portfolio-repo"
+          >
+            Portfolio Repo
+          </a>
         </ImageBlock>
         <PortfolioContainer maxDisplay="3" />
         <SingleButton>

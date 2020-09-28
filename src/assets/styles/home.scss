@@ -1,5 +1,23 @@
+@import "./_variables.scss";
+
+.portfolio-repo {
+  background: $pink;
+  margin-left: 0.5rem;
+
+  &:hover {
+    background: darken($pink, 10%);
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .home-content .project-container {
     flex-grow: 1;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .home-content .image-block .button {
+    display: block;
+    margin: 0.5rem 0 0 0;
   }
 }
