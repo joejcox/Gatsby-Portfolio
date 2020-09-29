@@ -5,6 +5,9 @@
  */
 
 const path = require("path")
+require("dotenv").config({
+  path: `.env.${process.env.GATSBY_ENV}`,
+})
 
 module.exports = {
   siteMetadata: {
