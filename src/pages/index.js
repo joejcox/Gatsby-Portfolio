@@ -9,7 +9,7 @@ import bannerImage from "images/home-banner-opt1.jpg"
 
 const Home = () => {
   return (
-    <Layout title="Joseph Cox - Website Developer">
+    <Layout title="Joseph Cox - Website Developer UK | Bespoke web designer">
       <main className="content home-content">
         <ImageBlock
           image={bannerImage}

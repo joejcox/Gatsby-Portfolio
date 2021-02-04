@@ -5,7 +5,7 @@ import bannerImage from "src/assets/images/about-banner-opt1.jpg"
 
 const About = () => {
   return (
-    <Layout title="About | Joseph Cox - eCommerce Website Development">
+    <Layout title="About | Joseph Cox - Bespoke eCommerce Website Development">
       <ImageBlock
         image={bannerImage}
         alt="Laptop showing music production software"
