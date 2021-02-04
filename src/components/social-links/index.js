@@ -10,16 +10,16 @@ const SocialLinks = () => {
         href="https://www.github.com/joejcox"
         rel="noopener noreferrer"
         target="_blank"
+        aria-label="View my github account"
       >
-        <span>View my github account here</span>
         <ImGithub />
       </a>
       <a
         href="https://www.instagram.com/joecoxo"
         rel="noopener noreferrer"
         target="_blank"
+        aria-label="View my Instagram account"
       >
-        <span>View my Instagram account here</span>
         <FiInstagram />
       </a>
     </div>

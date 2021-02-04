@@ -31,6 +31,12 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-preact`,
     {
+      resolve: "gatsby-plugin-html-attributes",
+      options: {
+        lang: "en",
+      },
+    },
+    {
       resolve: "gatsby-plugin-webpack-bundle-analyzer",
       options: {
         analyzerPort: 3000,
