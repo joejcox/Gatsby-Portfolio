@@ -31,6 +31,13 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-preact`,
     {
+      resolve: "gatsby-plugin-webpack-bundle-analyzer",
+      options: {
+        analyzerPort: 3000,
+        production: true,
+      },
+    },
+    {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "https://www.joecoxdev.com",
