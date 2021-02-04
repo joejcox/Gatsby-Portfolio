@@ -29,7 +29,6 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-fontawesome-css`,
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
