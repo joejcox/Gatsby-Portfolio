@@ -3,6 +3,7 @@ import "./styles.scss"
 
 const ImageBlock = ({
   image,
+  mobile,
   altText,
   hasFilter,
   isRight,
@@ -16,7 +17,10 @@ const ImageBlock = ({
       }`}
     >
       {image ? (
-        <img className="overlay-image" src={image} alt={altText} />
+        <>
+          <img className="overlay-image desktop" src={image} alt={altText} />
+          <img className="overlay-image mobile" src={mobile} alt={altText} />
+        </>
       ) : null}
       {hasFilter ? (
         <div

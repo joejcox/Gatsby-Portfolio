@@ -131,6 +131,25 @@ p {
   }
 }
 
+.pad {
+  padding: 0 1rem;
+  text-align: justify;
+}
+
+.page-title {
+  text-align: center;
+}
+
+@media screen and (min-width:768px) {
+  .pad {
+    padding: 0;
+  }
+
+  .page-title {
+    text-align: left;
+  }
+}
+
 @media screen and (max-width: 1200px) {
 
   .container,

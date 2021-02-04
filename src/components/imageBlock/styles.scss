@@ -1,5 +1,9 @@
 @import "../../assets/styles/variables";
 
+.desktop {
+  display: none;
+}
+
 .image-block {
   p {
     color: $white;
@@ -8,6 +12,7 @@
       color: $dark;
     }
   }
+
   .overlay-image {
     position: absolute;
     object-fit: cover;
@@ -22,13 +27,21 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(45, 4, 64, 0.6);
+    background: rgba(0, 0, 0, 0.8);
     z-index: -1;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .image-block .overlay-filter {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(45, 4, 64, 0.6);
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
   }
 }

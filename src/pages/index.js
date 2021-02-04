@@ -1,5 +1,4 @@
 import React from "react"
-// import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { Link } from "gatsby"
 import Layout from "components/layout/index"
 import ImageBlock from "components/imageBlock/index"
@@ -7,6 +6,7 @@ import PortfolioContainer from "components/portfolio-container/index"
 import SingleButton from "components/single-button/index"
 import "../assets/styles/home.scss"
 import bannerImage from "images/home-banner-opt.jpg"
+import mobileImage from "images/share-image.jpg"
 
 const Home = () => {
   return (
@@ -17,6 +17,7 @@ const Home = () => {
       <main className="content home-content" role="main">
         <ImageBlock
           image={bannerImage}
+          mobile={mobileImage}
           altText="Laptop showing web developer code"
           hasFilter
         >
@@ -25,9 +26,6 @@ const Home = () => {
             I'm a web developer with a passion for building fast, dynamic
             websites
           </p>
-          {/* <AniLink cover duration="0.8" to="/projects" className="button">
-            View Work
-          </AniLink> */}
           <Link to="/projects" className="button" rel="preload">
             View Work
           </Link>
