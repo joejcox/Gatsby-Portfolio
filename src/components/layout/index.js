@@ -5,11 +5,12 @@ import Footer from "components/footer/index"
 import "../../assets/styles/global.scss"
 import "./styles.scss"
 
-const Layout = ({ children, title }) => {
+const Layout = ({ children, title, description }) => {
   return (
     <div className="wrapper">
       <Helmet>
         <title>{title}</title>
+        <meta name="description" content={description} />
       </Helmet>
       <div className="wrapper-top">
         <Header />

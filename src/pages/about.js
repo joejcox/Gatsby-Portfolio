@@ -5,7 +5,10 @@ import bannerImage from "src/assets/images/about-banner-opt1.jpg"
 
 const About = () => {
   return (
-    <Layout title="About | Joseph Cox - Bespoke eCommerce Website Development">
+    <Layout
+      title="About | Joseph Cox - Bespoke eCommerce Website Development"
+      description="Looking for a professional website developer for your new business? We provide a high quality, speed optimised fully responsive website design. Optimised website design with content writing"
+    >
       <ImageBlock
         image={bannerImage}
         alt="Laptop showing music production software"

@@ -10,7 +10,10 @@ import bannerImage from "images/home-banner-opt.jpg"
 
 const Home = () => {
   return (
-    <Layout title="Joseph Cox - Website Developer UK | Bespoke web designer">
+    <Layout
+      title="Joseph Cox - Website Developer UK | Bespoke web designer"
+      description="A UK website developer providing bespoke websites with content writing for your needs. I deliver fast, optimised ecommerce websites, blog website design, real estate web design and quality content writing at the same time."
+    >
       <main className="content home-content">
         <ImageBlock
           image={bannerImage}
