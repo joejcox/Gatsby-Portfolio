@@ -28,6 +28,14 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sitemap`,
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://www.joecoxdev.com",
+        sitemap: "https://www.joecoxdev.com/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-transition-link`,
     {
