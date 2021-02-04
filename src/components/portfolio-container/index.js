@@ -39,7 +39,7 @@ const PortfolioContainer = ({ maxDisplay }) => {
                   <h3 className="project-title">{title}</h3>
                 </header>
                 <div className="project-inner">
-                  <a href={demo} target="_blank" rel="noreferrer">
+                  <a href={demo} target="_blank" rel="noopener noreferrer">
                     <img width="100%" src={url} alt={description} />
                   </a>
                 </div>
@@ -48,7 +48,7 @@ const PortfolioContainer = ({ maxDisplay }) => {
                     className="button project-button"
                     href={demo}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     Visit
                   </a>
@@ -57,7 +57,7 @@ const PortfolioContainer = ({ maxDisplay }) => {
                       className="button project-button"
                       href={github}
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                     >
                       Github
                     </a>

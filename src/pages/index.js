@@ -5,7 +5,7 @@ import ImageBlock from "components/imageBlock/index"
 import PortfolioContainer from "components/portfolio-container/index"
 import SingleButton from "components/single-button/index"
 import "../assets/styles/home.scss"
-import bannerImage from "images/home-banner-opt.jpg"
+import bannerImage from "images/home-banner-opt1.jpg"
 
 const Home = () => {
   return (
@@ -27,6 +27,8 @@ const Home = () => {
           <a
             href="https://github.com/joejcox/Gatsby-Portfolio"
             className="button portfolio-repo"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Portfolio Repo
           </a>

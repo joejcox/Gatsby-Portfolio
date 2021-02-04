@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "components/layout/index"
 import ImageBlock from "components/imageBlock/index"
-import bannerImage from "src/assets/images/about-banner-opt.jpg"
+import bannerImage from "src/assets/images/about-banner-opt1.jpg"
 
 const About = () => {
   return (
@@ -9,7 +9,6 @@ const About = () => {
       <ImageBlock
         image={bannerImage}
         alt="Laptop showing music production software"
-        fillSpace
         hasFilter
       >
         <h1 className="page-title">About Me</h1>
@@ -22,13 +21,17 @@ const About = () => {
         </p>
 
         <p>
-          I develop dynamic websites using React JS. From blogs, to eCommerce
-          stores, fully bespoke websites are what I do.
+          I develop dynamic websites using React JS and React based frameworks
+          such as Gatsby and Next JS. I provide fully bespoke website
+          development including blog website design, eCommerce website
+          development and takeaway websites.
         </p>
 
+        {/* place icons of these in the white space beneath the banner instead eventually */}
         <p>
-          <strong>Skills:</strong> HTML, CSS/SCSS, JavaScript, React, Gatsby,
-          Next, Git, PHP, Photoshop
+          <strong>Tools/skills:</strong> HTML, CSS/SCSS, JavaScript, React,
+          Gatsby, Next, Git, WordPress, Shopify, some PHP, Figma, Adobe XD,
+          Photoshop, Illustrator
         </p>
       </ImageBlock>
     </Layout>
