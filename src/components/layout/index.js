@@ -11,6 +11,11 @@ const Layout = ({ children, title, description }) => {
       <Helmet>
         <title>{title}</title>
         <meta name="description" content={description} />
+
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Lato&display=swap&family=Patua+One&display=swap"
+        />
       </Helmet>
       <div className="wrapper-top">
         <Header />
