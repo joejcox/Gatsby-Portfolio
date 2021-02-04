@@ -1,6 +1,7 @@
 @import "../../assets/styles/variables";
 
 .projects {
+
   .container {
     display: flex;
     flex-wrap: wrap;
@@ -90,6 +91,12 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .projects {
+
+    min-height: 1000px;
+  }
+
   .projects .container {
     padding: 0;
   }
