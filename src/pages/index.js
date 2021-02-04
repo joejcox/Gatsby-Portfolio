@@ -6,7 +6,7 @@ import ImageBlock from "components/imageBlock/index"
 import PortfolioContainer from "components/portfolio-container/index"
 import SingleButton from "components/single-button/index"
 import "../assets/styles/home.scss"
-import bannerImage from "images/home-banner-opt1.jpg"
+import bannerImage from "images/home-banner-opt.jpg"
 
 const Home = () => {
   return (
