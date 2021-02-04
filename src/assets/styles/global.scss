@@ -13,8 +13,6 @@ body {
 a {
   color: $pink;
   text-decoration: none;
-  width: auto;
-  height: auto;
 
   &:hover {
     color: darken($pink, 10%);
