@@ -14,7 +14,7 @@ const Home = () => {
       title="Joseph Cox - Website Developer UK | Bespoke web designer"
       description="A UK website developer providing bespoke websites with content writing for your needs. I deliver fast, optimised ecommerce websites, blog website design, real estate web design and quality content writing at the same time."
     >
-      <main className="content home-content">
+      <main className="content home-content" role="main">
         <ImageBlock
           image={bannerImage}
           altText="Laptop showing web developer code"

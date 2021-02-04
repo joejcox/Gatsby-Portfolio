@@ -38,7 +38,7 @@ const PortfolioContainer = ({ maxDisplay }) => {
         return (
           <article key={id} className="project-container">
             <header className="project-header">
-              <h3 className="project-title">{title}</h3>
+              <h2 className="project-title">{title}</h2>
             </header>
             <div className="project-inner">
               <a href={demo} target="_blank" rel="noopener noreferrer">
@@ -126,7 +126,7 @@ export default PortfolioContainer
 //               return (
 //                 <article key={id} className="project-container">
 //                   <header className="project-header">
-//                     <h3 className="project-title">{title}</h3>
+//                     <h2 className="project-title">{title}</h2>
 //                   </header>
 //                   <div className="project-inner">
 //                     <a href={demo} target="_blank" rel="noreferrer">
