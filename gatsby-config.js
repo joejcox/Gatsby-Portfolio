@@ -29,6 +29,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-preact`,
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
