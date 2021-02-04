@@ -9,7 +9,11 @@ const Footer = () => {
       <div className="container">
         <SocialLinks />
         <span>
-          © <Link to="/">Joseph Cox</Link> {new Date().getFullYear()}
+          ©{" "}
+          <Link to="/" rel="preload">
+            Joseph Cox
+          </Link>{" "}
+          {new Date().getFullYear()}
         </span>
       </div>
     </footer>

@@ -5,13 +5,23 @@ import { Link } from "gatsby"
 const NavLinks = () => {
   return (
     <>
-      <Link to="/" className="nav-link" activeClassName="active">
+      <Link to="/" className="nav-link" activeClassName="active" rel="preload">
         Home
       </Link>
-      <Link to="/about" className="nav-link" activeClassName="active">
+      <Link
+        to="/about"
+        className="nav-link"
+        activeClassName="active"
+        rel="preload"
+      >
         About Me
       </Link>
-      <Link to="/projects" className="nav-link" activeClassName="active">
+      <Link
+        to="/projects"
+        className="nav-link"
+        activeClassName="active"
+        rel="preload"
+      >
         Portfolio
       </Link>
       <a

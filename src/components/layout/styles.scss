@@ -9,13 +9,13 @@
     flex-direction: column;
 
     .fill-space {
-      flex: 1;
+      flex: 0;
     }
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .wrapper .wrapper-top .fill-space {
-    flex: 0;
+    flex: 1;
   }
 }

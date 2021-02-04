@@ -25,7 +25,7 @@ const Home = () => {
           {/* <AniLink cover duration="0.8" to="/projects" className="button">
             View Work
           </AniLink> */}
-          <Link to="/projects" className="button">
+          <Link to="/projects" className="button" rel="preload">
             View Work
           </Link>
           <a
@@ -39,7 +39,7 @@ const Home = () => {
         </ImageBlock>
         <PortfolioContainer maxDisplay="3" />
         <SingleButton>
-          <Link to="/projects" className="button">
+          <Link to="/projects" className="button" rel="preload">
             View All
           </Link>
         </SingleButton>
