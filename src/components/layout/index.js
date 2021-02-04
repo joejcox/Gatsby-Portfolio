@@ -17,11 +17,28 @@ const Layout = ({ children, title, description }) => {
         />
         <meta
           property="og:description"
-          content="I provide bespoke websites with content writing for your needs. Delivering fast, optimised ecommerce websites, blog website design, real estate web design and quality content writing at the same time."
+          content="Fully bespoke websites including content writing. Delivering fast, optimised eCommerce and brochure websites"
         />
         <meta
           property="og:image"
           content="/src/assets/images/share-image.jpg"
+        />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:title"
+          content="UK Website Development with content"
+        />
+        <meta
+          property="twitter:description"
+          content="Fully bespoke websites including content writing. Delivering fast, optimised eCommerce and brochure websites"
+        />
+        <meta
+          property="twitter:image"
+          content="/src/assets/images/share-image.jpg"
+        />
+        <meta
+          property="twitter:image:alt"
+          content="A web developer's laptop with code on the screen"
         />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_GB" />
