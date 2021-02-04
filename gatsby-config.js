@@ -11,8 +11,9 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Joseph Cox - UK Web Developer`,
-    description: `UK Web developer who can build your eCommerce website, blog or simple informational website.`,
+    siteUrl: `https://www.joecoxdev.com`,
+    title: `Joseph Cox - UK Website Developer`,
+    description: `UK Web developer - ecommerce websites, blog website design, real estate web design, fully bespoke - tailored to your tastes. I deliver fast, optimised websites with the user experience in mind.`,
     author: `Joseph Cox`,
     menuLinks: [
       {
@@ -26,6 +27,7 @@ module.exports = {
     ],
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-transition-link`,
     {
