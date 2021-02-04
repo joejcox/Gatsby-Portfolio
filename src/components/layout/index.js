@@ -11,6 +11,20 @@ const Layout = ({ children, title, description }) => {
       <Helmet>
         <title>{title}</title>
         <meta name="description" content={description} />
+        <meta
+          property="og:title"
+          content="UK Website Development with content writing"
+        />
+        <meta
+          property="og:description"
+          content="I provide bespoke websites with content writing for your needs. Delivering fast, optimised ecommerce websites, blog website design, real estate web design and quality content writing at the same time."
+        />
+        <meta
+          property="og:image"
+          content="/src/assets/images/share-image.jpg"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_GB" />
         <style>
           {`
           @font-face {

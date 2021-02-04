@@ -13,8 +13,8 @@ module.exports = {
   siteMetadata: {
     siteUrl: `https://www.joecoxdev.com`,
     title: `Joseph Cox - UK Website Developer | Bespoke websites with content included`,
-    description: `A UK website developer providing bespoke websites with content writing for your needs. I deliver fast, optimised ecommerce websites, blog website design, real estate web design and quality content writing at the same time.`,
-    image: "images/share-image.jpg",
+    description: `I provide bespoke websites with content writing for your needs. Delivering fast, optimised ecommerce websites, blog website design, real estate web design and quality content writing at the same time.`,
+    image: "/src/assets/images/share-image.jpg",
     author: `Joseph Cox`,
     menuLinks: [
       {
