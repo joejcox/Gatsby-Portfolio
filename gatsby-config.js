@@ -28,6 +28,7 @@ module.exports = {
     ],
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-preact`,
     {
@@ -48,7 +49,20 @@ module.exports = {
       options: {
         host: "https://www.joecoxdev.com",
         sitemap: "https://www.joecoxdev.com/sitemap.xml",
-        policy: [{ userAgent: "*", allow: "/" }],
+        policy: [
+          {
+            userAgent: "*",
+            allow: "/",
+          },
+          {
+            userAgent: "Googlebot",
+            allow: "/",
+          },
+          {
+            userAgent: "x-robots-tag",
+            allow: "/",
+          },
+        ],
       },
     },
     `gatsby-plugin-sass`,
@@ -67,6 +81,5 @@ module.exports = {
         pages: path.join(__dirname, "src/pages"),
       },
     },
-    `gatsby-plugin-react-helmet`,
   ],
 }
