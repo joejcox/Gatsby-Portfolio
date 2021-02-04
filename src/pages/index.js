@@ -1,5 +1,6 @@
 import React from "react"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+// import AniLink from "gatsby-plugin-transition-link/AniLink"
+import { Link } from "gatsby"
 import Layout from "components/layout/index"
 import ImageBlock from "components/imageBlock/index"
 import PortfolioContainer from "components/portfolio-container/index"
@@ -21,9 +22,12 @@ const Home = () => {
             I'm a web developer with a passion for building fast, dynamic
             websites
           </p>
-          <AniLink cover duration="0.8" to="/projects" className="button">
+          {/* <AniLink cover duration="0.8" to="/projects" className="button">
             View Work
-          </AniLink>
+          </AniLink> */}
+          <Link to="/projects" className="button">
+            View Work
+          </Link>
           <a
             href="https://github.com/joejcox/Gatsby-Portfolio"
             className="button portfolio-repo"
@@ -35,9 +39,9 @@ const Home = () => {
         </ImageBlock>
         <PortfolioContainer maxDisplay="3" />
         <SingleButton>
-          <AniLink cover duration="0.8" to="/projects" className="button">
+          <Link to="/projects" className="button">
             View All
-          </AniLink>
+          </Link>
         </SingleButton>
       </main>
     </Layout>

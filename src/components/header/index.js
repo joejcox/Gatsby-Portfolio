@@ -1,5 +1,6 @@
 import React, { useState } from "react"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+// import AniLink from "gatsby-plugin-transition-link/AniLink"
+import { Link } from "gatsby"
 import NavLinks from "components/nav-links/nav-links.component"
 import Hamburger from "components/hamburger/hamburger.component"
 import MobileMenu from "components/mobile-menu/mobile-menu.component"
@@ -13,9 +14,7 @@ const Header = () => {
       <div className="container">
         <div className="logo">
           <h2>
-            <AniLink cover bg="#ffffff" duration="0.8" to="/">
-              Joseph Cox
-            </AniLink>
+            <Link to="/">Joseph Cox</Link>
           </h2>
         </div>
         <nav className="main-navigation">

@@ -1,36 +1,19 @@
 import React from "react"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+// import AniLink from "gatsby-plugin-transition-link/AniLink"
+import { Link } from "gatsby"
 
 const NavLinks = () => {
   return (
     <>
-      <AniLink
-        cover
-        duration="0.8"
-        to="/"
-        className="nav-link"
-        activeClassName="active"
-      >
+      <Link to="/" className="nav-link" activeClassName="active">
         Home
-      </AniLink>
-      <AniLink
-        cover
-        duration="0.8"
-        to="/about"
-        className="nav-link"
-        activeClassName="active"
-      >
+      </Link>
+      <Link to="/about" className="nav-link" activeClassName="active">
         About Me
-      </AniLink>
-      <AniLink
-        cover
-        duration="0.8"
-        to="/projects"
-        className="nav-link"
-        activeClassName="active"
-      >
+      </Link>
+      <Link to="/projects" className="nav-link" activeClassName="active">
         Portfolio
-      </AniLink>
+      </Link>
       <a
         className="nav-link"
         href="mailto:joecoxwebdev@outlook.com?subject=Contact from your website"
