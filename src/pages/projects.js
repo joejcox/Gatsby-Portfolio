@@ -7,8 +7,8 @@ import "../assets/styles/home.scss"
 const Portfolio = () => {
   return (
     <Layout
-      title="Portfolio | Joseph Cox - Bespoke Websites UK"
-      description="React JS website portfolio, UK website designer, fast optimised websites"
+      title="Portfolio | Joseph Cox - React Developer"
+      description="Building single page applications using latest technologies such as React, Redux, Typescript and Firebase"
     >
       <main className="content portfolio-content">
         <PageTitle>Portfolio</PageTitle>

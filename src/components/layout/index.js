@@ -5,43 +5,26 @@ import Footer from "components/footer/index"
 import "../../assets/styles/global.scss"
 import "./styles.scss"
 
-const Layout = ({ children, title, description }) => {
+const Layout = ({ children, title }) => {
   return (
     <div className="wrapper">
       <Helmet>
         <title>{title}</title>
-        <meta name="description" content={description} />
         <meta
           property="og:title"
-          content="UK Website Development with content writing"
+          content="Joseph Cox | Web Developer - Typescript, React"
         />
+        <meta property="og:site_name" content="Joseph Cox - React Portfolio" />
+        <meta property="og:url" content="https://www.joecoxdev.com" />
         <meta
           property="og:description"
-          content="Fully bespoke websites including content writing. Delivering fast, optimised eCommerce and brochure websites"
-        />
-        <meta
-          property="og:image"
-          content="/src/assets/images/share-image.jpg"
-        />
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta
-          property="twitter:title"
-          content="UK Website Development with content"
-        />
-        <meta
-          property="twitter:description"
-          content="Fully bespoke websites including content writing. Delivering fast, optimised eCommerce and brochure websites"
-        />
-        <meta
-          property="twitter:image"
-          content="/src/assets/images/share-image.jpg"
-        />
-        <meta
-          property="twitter:image:alt"
-          content="A web developer's laptop with code on the screen"
+          content="A frontend developer using latest technologies - Typescript, React/Gatsby/Next, Redux, Firebase"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_GB" />
+        <meta
+          property="og:image"
+          content="https://firebasestorage.googleapis.com/v0/b/aural-records.appspot.com/o/portfoliossjc.jpg?alt=media&token=6ebcf854-2159-40fc-89d0-05b09d4e8c67"
+        />
         <style>
           {`
           @font-face {

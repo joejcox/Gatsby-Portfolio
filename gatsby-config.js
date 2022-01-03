@@ -12,15 +12,11 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     siteUrl: `https://www.joecoxdev.com`,
-    title: `Joseph Cox - UK Website Developer | Bespoke websites with content included`,
-    description: `I provide bespoke websites with content writing for your needs. Delivering fast, optimised ecommerce websites, blog website design, real estate web design and quality content writing at the same time.`,
+    title: `Joseph Cox - Frontend Developer | Typescript, React, Redux, Firebase`,
+    description: `Frontend JavaScript developer builting Single Page Applications using React and Redux`,
     image: "/src/assets/images/share-image.jpg",
     author: `Joseph Cox`,
     menuLinks: [
-      {
-        name: "About Me",
-        link: "/about",
-      },
       {
         name: "Portfolio",
         link: "/portfolio",
@@ -31,6 +27,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-preact`,
+    `gatsby-plugin-open-graph-images`,
     {
       resolve: "gatsby-plugin-html-attributes",
       options: {

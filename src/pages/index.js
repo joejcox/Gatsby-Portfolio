@@ -11,8 +11,8 @@ import mobileImage from "src/assets/images/share-image.jpg"
 const Home = () => {
   return (
     <Layout
-      title="Joseph Cox - Website Developer UK | Bespoke web designer"
-      description="A UK website developer providing bespoke websites with content writing for your needs. I deliver fast, optimised ecommerce websites, blog website design, real estate web design and quality content writing at the same time."
+      title="Joseph Cox - Frontend Developer | Typescript, React, Redux, Firebase"
+      description="Frontend JavaScript developer builting Single Page Applications using React and Redux"
     >
       <main className="content home-content" role="main">
         <ImageBlock
@@ -23,8 +23,10 @@ const Home = () => {
         >
           <h1 className="page-title">Frontend Developer</h1>
           <p>
-            I'm a web developer with a passion for building fast, dynamic
-            websites
+            Web developer with a passion for fast, dynamic, single page
+            applications.
+            <br />
+            <b>Tech used:</b> Typescript, React/Gatsby/Next, Redux, Firebase
           </p>
           <Link to="/projects" className="button" rel="preload">
             View Work

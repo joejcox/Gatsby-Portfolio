@@ -8,14 +8,6 @@ const NavLinks = () => {
         Home
       </Link>
       <Link
-        to="/about"
-        className="nav-link"
-        activeClassName="active"
-        rel="preload"
-      >
-        About Me
-      </Link>
-      <Link
         to="/projects"
         className="nav-link"
         activeClassName="active"
