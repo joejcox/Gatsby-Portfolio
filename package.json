@@ -15,7 +15,6 @@
         "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
     },
     "dependencies": {
-        "babel-eslint": "^10.0.0",
         "contentful": "^9.1.5",
         "dotenv": "^10.0.0",
         "gatsby": "^4.4.0",
