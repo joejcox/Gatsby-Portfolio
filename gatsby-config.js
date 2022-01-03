@@ -27,7 +27,6 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-preact`,
-    `gatsby-plugin-open-graph-images`,
     {
       resolve: "gatsby-plugin-html-attributes",
       options: {
