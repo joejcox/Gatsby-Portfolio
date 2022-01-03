@@ -1,12 +1,9 @@
 {
     "name": "gatsby-portfolio",
     "private": true,
-    "description": "My gatsby portfolio",
-    "version": "0.1.0",
+    "description": "Gatsby portfolio",
+    "version": "1.0.0",
     "license": "0BSD",
-    "engines": {
-        "node": ">=14.15.0"
-    },
     "scripts": {
         "build": "gatsby build",
         "develop": "gatsby develop",
@@ -18,6 +15,7 @@
         "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
     },
     "dependencies": {
+        "babel-eslint": "^10.0.0",
         "contentful": "^9.1.5",
         "dotenv": "^10.0.0",
         "gatsby": "^4.4.0",
