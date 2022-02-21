@@ -40,7 +40,7 @@ const Home = () => {
             Portfolio Repo
           </a>
         </ImageBlock>
-        <PortfolioContainer maxDisplay="3" />
+        <PortfolioContainer maxDisplay="6" />
         <SingleButton>
           <Link to="/projects" className="button" rel="preload">
             View All
